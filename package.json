@@ -1,0 +1,19 @@
+{
+  "name": "nft-checker",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^22.10.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@ton/ton": "^15.1.0",
+    "axios": "^1.7.9",
+    "buffer": "^6.0.3",
+    "ton": "^13.9.0",
+    "tonweb": "^0.0.66"
+  }
+}
